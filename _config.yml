@@ -21,7 +21,7 @@ title_separator          : "|"
 subtitle                 : "It may be difficult, but it is possible." # site tagline that appears below site title in masthead
 name                     : "Maro Jeon"
 description              : "Engineer, Researcher and Nature lover's Blog"
-url                      : "https://marojeon.github.io"
+url                      : "https://wjsakfh.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
