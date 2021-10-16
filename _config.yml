@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -281,7 +281,9 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      sidebar:
+        nav: "docs"
+      layout: "default"
       author_profile: true
       read_time: true
       comments: true
@@ -289,4 +291,48 @@ defaults:
       related: true
       show_date: true
 
+  - scope:
+      path: ""
+      type: pages
+    values:
+      sidebar:
+        nav: "docs"
+      layout: "default"
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+
+# defaults:
+#   # _posts
+#   - scope:
+#       path: ""
+#       type: docs
+#     values:
+#       sidebar:
+#         nav: "docs"
+#       layout: single
+#       author_profile: true
+#       read_time: true
+#       comments: true
+#       share: true
+#       related: true
+#       show_date: true
+
+  # # _docs
+  # - scope:
+  #     path: ""
+  #     type: main
+  #   values:
+  #     sidebar:
+  #       nav: "main"
+  #     layout: "default"
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
+  #     show_date: true
 date_format: "%Y-%m-%d"
