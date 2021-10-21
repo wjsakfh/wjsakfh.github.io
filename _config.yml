@@ -278,32 +278,41 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
-      sidebar:
-        nav: "docs"
-      layout: "default"
+      layout: category
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
       show_date: true
-
+      sidebar:
+        nav: "docs"
+              
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
-      sidebar:
-        nav: "docs"
       layout: "default"
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      show_date: true
+      sidebar:
+        nav: "docs"
+
+  # _docs
+  - scope:
+      path: "_docs"
+      type: docs
+    values:
+      layout: "default"
+      read_time: false
+      author_profile: true
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
 
 # defaults:
 #   # _posts
