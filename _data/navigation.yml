@@ -10,16 +10,18 @@ main:
     url: /about/
 
 docs:
-  - title: "AI"
-    url: /categories/#ai/
-  - title: "Engineering"
-    url: /categories/#engineering/
-  - title: "Nature"
-    url: /categories/#nature/  
-  - title: "Research"
-    url: /categories/#research/
-  - title: "Entrepreneurship"
-    url: /categories/#entrepreneurship
+  - title: "Nature Lover"
+    url: categories/#nature
+
+  - title: "Engineer"
+    url: categories/#engineer
+
+  - title: "Researcher"
+    url: categories/#researcher
+
+  - title: "Entrepreneur"
+    url: categories/#entrepreneur
+
   # - title: "Contents2"
   #   children: 
   #     - title: "Category"

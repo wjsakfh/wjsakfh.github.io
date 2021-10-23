@@ -273,24 +273,22 @@ compress_html:
   ignore:
     envs: development
 
-
 # Defaults
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
-      layout: category
+      layout: "default"
       author_profile: true
       read_time: true
-      comments: true
+      comments: # true
       share: true
       related: true
-      show_date: true
       sidebar:
         nav: "docs"
-              
+        
   # _pages
   - scope:
       path: ""
@@ -301,18 +299,45 @@ defaults:
       sidebar:
         nav: "docs"
 
-  # _docs
-  - scope:
-      path: "_docs"
-      type: docs
-    values:
-      layout: "default"
-      read_time: false
-      author_profile: true
-      share: false
-      comments: false
-      sidebar:
-        nav: "docs"
+# # Defaults
+# defaults:
+#   # _posts
+#   - scope:
+#       path: "_posts"
+#       type: posts
+#     values:
+#       layout: category
+#       author_profile: true
+#       read_time: true
+#       comments: true
+#       share: true
+#       related: true
+#       show_date: true
+#       sidebar:
+#         nav: "docs"
+              
+#   # _pages
+#   - scope:
+#       path: ""
+#       type: pages
+#     values:
+#       layout: "default"
+#       author_profile: true
+#       sidebar:
+#         nav: "docs"
+
+#   # _docs
+#   - scope:
+#       path: ""
+#       type: docs
+#     values:
+#       layout: "default"
+#       read_time: true
+#       author_profile: true
+#       share: false
+#       comments: false
+#       sidebar:
+#         nav: "docs"
 
 # defaults:
 #   # _posts
