@@ -10,17 +10,17 @@ main:
     url: /about/
 
 docs:
-  - title: "Nature Lover"
-    url: categories/#nature
+  - title: "Research"
+    url: categories/#research
 
-  - title: "Engineer"
-    url: categories/#engineer
+  - title: "Development"
+    url: categories/#development
 
-  - title: "Researcher"
-    url: categories/#researcher
+  - title: "Nature/Science/Engineering"
+    url: categories/#nse
 
-  - title: "Entrepreneur"
-    url: categories/#entrepreneur
+  - title: "Entrepreneurship"
+    url: categories/#entrepreneurship
 
   # - title: "Contents2"
   #   children: 
